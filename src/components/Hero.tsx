@@ -34,12 +34,13 @@ const Hero = () => {
           /> */}
 
           {/* Headline */}
-         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             Transform Your Health with{" "}
             <span className="text-blue-600 font-semibold">
               Diet Dynamo
             </span>
-          
+          </h1>
+
           {/* Subtext */}
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
             Premium personalized nutrition coaching designed to help you achieve your wellness goals through expert guidance and continuous support.
