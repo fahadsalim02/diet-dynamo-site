@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-The site will be available at **[http://localhost:5173/](http://localhost:5173/)**
+The site will be available at **[http://localhost:5173/](http://localhost:5173/](https://fahadsalim02.github.io/diet-dynamo-site/)**
 
 ## 🌍 Deployment
 
