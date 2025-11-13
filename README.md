@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# Diet Dynamo – Personalized Nutrition Website
 
-## Project info
+**Built by Fahad Salim**
 
-**URL**: https://lovable.dev/projects/bf5270d9-ca1d-4b5a-b470-f0f9df3583b6
+Diet Dynamo is a modern, responsive website designed to help users transform their health through personalized nutrition guidance. The site highlights wellness programs, features a sleek hero section, and provides a simple way for visitors to connect directly via WhatsApp.
 
-## How can I edit this code?
+## 🧩 Tech Stack
 
-There are several ways of editing your application.
+* **React + TypeScript** – Component-based frontend
+* **Vite** – Superfast bundler for optimal performance
+* **Tailwind CSS** – Utility-first styling for responsive design
+* **shadcn/ui** – Clean, reusable UI components
 
-**Use Lovable**
+## 🚀 Local Development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bf5270d9-ca1d-4b5a-b470-f0f9df3583b6) and start prompting.
+To run the project locally:
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Clone the repository
+git clone <your_repo_url>
 
-**Use your preferred IDE**
+# Navigate into the project
+cd diet-dynamo-site
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at **[http://localhost:5173/](http://localhost:5173/)**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 Deployment
 
-**Use GitHub Codespaces**
+The website can be easily deployed on **GitHub Pages**, **Netlify**, or any other static hosting service.
+Make sure your `vite.config.ts` file includes the correct `base` path before deploying:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```ts
+base: "/diet-dynamo-site/"
+```
 
-## What technologies are used for this project?
+## ✨ Features
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bf5270d9-ca1d-4b5a-b470-f0f9df3583b6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Fully responsive design for all devices
+* Clean UI and smooth animations
+* WhatsApp contact integration
+* Optimized for fast loading
