@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-wellness.jpg";
-import logo from "@/assets/logo.png"; // <-- Add your logo image here
+import logo from "@/assets/logo.png"; // Imported logo
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -24,14 +24,12 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           
           {/* Logo */}
-          <img src="/logo.png" alt="Diet Dynamo Logo" className="mx-auto mb-6 w-32 md:w-40 object-contain" />
-
-          {/* <img
+          <img
             src={logo}
             alt="Diet Dynamo Logo"
             className="mx-auto mb-6 w-32 md:w-40 object-contain opacity-0 animate-fade-in"
             style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
-          /> */}
+          />
 
           {/* Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
